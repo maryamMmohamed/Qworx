@@ -1,0 +1,65 @@
+
+.animation-image{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20rem;
+
+    &__content{
+        width: 40%;
+        display: inline-block;
+        text-align: center;
+        border: 2px solid $pink-color;
+        margin-right: 8rem;
+        padding: 3rem;
+        height: 100%;
+        border-radius: 4px;
+        padding-top: 2rem;
+        padding-bottom: 7rem;
+        .animation-button__btn{
+            background-color: $pink-color;
+            &:hover {
+                color: $pink-color;
+                border-color: $pink-color;
+              }
+        }   
+    }
+ 
+    &__heading{
+        font-size: 3.6rem;
+        font-weight: 400;
+        color: rgb(135, 136, 137);
+        line-height: 1.667;
+        margin-bottom: 2rem;
+    }  
+
+
+    &:hover{
+        .animation__pic{
+            &:nth-child(1)
+            {
+            -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);            
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            }
+            &:nth-child(2){
+                -webkit-transform: rotate(7deg);
+                transform: rotate(7deg);               
+                -webkit-transition: all 0.10s ease;
+                transition: all 0.10s ease;
+            }
+            &:nth-child(3){
+                -webkit-transform: rotate(-5deg);
+                 transform: rotate(-5deg);
+            }
+        }
+    }
+}
+

@@ -1,0 +1,47 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixcins';
+@import 'abstracts/variables';
+
+@import 'base/animation';
+@import 'base/helper';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/dropdown';
+@import 'components/link';
+@import 'components/image-slider';
+@import 'components/animation-button';
+@import 'components/animation-image';
+@import 'components/testimonial-slider';
+@import 'components/services-card';
+@import 'components/events';
+@import 'components/price-card';
+@import 'components/carosel-images';
+@import 'components/free-inputs';
+@import 'components/home-header';
+@import 'components/business-card';
+@import 'components/our-clients';
+@import 'components/our-services';
+@import 'components/social-icons';
+@import 'components/teams-slide';
+@import 'components/animated-word';
+@import 'components/circle';
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/slider';
+@import 'layout/image';
+@import 'layout/events-section';
+@import 'layout/business-section';
+@import 'layout/our-team';
+@import 'layout/clients';
+@import 'layout/testimonial';
+@import 'layout/services';
+@import 'layout/prices';
+@import 'layout/form';
+@import 'layout/serv-properties';
+@import 'layout/percentage';
+@import 'layout/carosel';
+
+@import 'pages/home';

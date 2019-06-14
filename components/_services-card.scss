@@ -1,0 +1,88 @@
+.services-item {
+	width: 36rem;
+    position: relative;  
+    
+    &__inner {
+        height: 24rem;
+        width: 100%;
+        position: absolute;
+    }
+
+    &__link{
+        color: $white;
+    }
+
+        &__front,
+        &__back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transition: transform .6s ease-in-out;
+        }
+
+        &__detail {
+            font-size: 1.7rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+        &__head{
+            font-size: 2.2rem;
+            font-weight: bold;
+            margin: 2rem 0;
+        }
+
+        &__icon {
+            display: block;
+            margin: 2rem auto;
+        }
+
+        &__back {
+            background-color: $second-color;
+            -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+        }   
+        &__title {
+            color: $white;
+            text-transform: capitalize;
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+            font-size: 1.9rem;
+        }
+        &__desc {
+            color: $gray-300;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-bottom: 2rem;
+        }
+        &__small {
+            color: $star-color;
+            font-size: 1.7rem;
+        }
+
+    &__blue{
+        background-color: $main-bgcolor;
+    }
+    &__pink{
+        background-color: $pink-bgcolor;
+    }
+    &__green{
+        background-color: $green-bgcolor;
+    }
+
+    &:hover{
+        .services-item__front{
+            -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+        }
+        .services-item__back {
+            -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+        }
+    }
+
+}

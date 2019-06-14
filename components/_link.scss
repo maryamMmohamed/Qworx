@@ -1,0 +1,48 @@
+
+.header__li{    
+    line-height: 1.4rem;
+    margin: 0 1.5rem;
+    display: inline-block;
+    
+    > .header__link{
+        line-height: 8rem;
+    }
+    .header__link{
+        &--uppercase{
+            text-transform: uppercase;
+        }
+    
+        &--main-font{
+            font-size: $link-font;
+        }
+    
+        &--position{
+            position: relative;
+        }
+    
+        &--padding{
+            padding-top: 3.3rem;
+            padding-bottom: 3.3rem;
+        }
+    
+        &--main-color{
+            color: $white;
+        }
+    
+        &--active{
+            color: $pink-color;
+        }
+    }
+
+    
+    &:hover
+    {
+    >.dropdown{
+        visibility: visible;
+    }
+   }
+    
+    
+    
+}
+

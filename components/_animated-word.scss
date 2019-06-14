@@ -1,0 +1,36 @@
+
+  .anmi-word {
+    margin-top: 10rem;
+    margin-bottom: 26.9rem;
+    left: 50%;
+    position: relative;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    width: 60rem;
+    perspective: 80rem;
+    &__text {
+        font-size: 2.25em;
+        left: -2em;
+        letter-spacing: 0.4em;
+        right: -2em;
+        text-align: center;
+        text-transform: uppercase;
+        top: 29%;
+        position: absolute;
+        animation: word-animated 1s linear infinite;
+        color:  $second-color;
+      }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .anmi-word {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .anmi-word {
+      font-size: .7rem;
+    }
+  }

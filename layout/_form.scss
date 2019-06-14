@@ -1,0 +1,94 @@
+.form1{
+    margin-top: 7rem;
+    text-align: center;
+    &__inputs {
+        display: flex;
+    }
+    &__input{
+        border: 1px solid #e1e1e1;
+        background-color: $white;
+        border-color: #454545;
+        color:  $gray-400;
+        font-style: italic;
+        margin-right: 2.8rem;
+        max-width: 37.2rem;
+        padding: 0 3.1rem;
+        width: 100%;
+        font-size: 1.6rem;
+        height: 6rem;
+    }
+    &--rounded {
+        border-radius: .25rem!important;
+    }
+    &__select{
+        font-style: italic;
+        background-color: $white;
+        border-color: #454545;
+        color: $gray-400;
+        border: 1px solid #e1e1e1;
+        font-size: 1.6rem;
+        height: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+    }
+    &__option{
+        background-color: $white;
+        color: $gray-800;
+        font-weight: normal;
+        display: block;
+        white-space: pre;
+        min-height: 1.2em;
+        padding: 0px 2px 1px;
+        font-size: 1.6rem;
+    }
+    &__button{
+        margin-top: 3.6rem;
+        text-align: center;
+        padding-bottom: 17rem;
+        .btn{
+            background-color: $star-color;
+            border: 5px solid $star-color;
+            cursor: pointer;
+            min-width: 20rem;
+            padding: 2.6rem 4.2rem;
+            color: $white;
+            border-radius: 4rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            line-height: 1.6em;
+            margin-bottom: .4rem;
+            text-transform: uppercase;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            box-shadow: none;
+            &:hover{
+                background-color: $white;
+                border: 5px solid $star-color;
+                color: $star-color;
+            }
+        }
+    }
+    &__chek {
+        margin-bottom: 7rem;
+    }
+    &__checkInput{
+        font-style: italic;
+        margin: 0;
+        max-width: 3rem;
+        padding: 0 3.1rem;
+        width: 100%;
+    }
+    &__checkLabel{
+        font-size: 1.6rem;
+        font-weight: 100;
+        line-height: 1;
+        margin: 0;
+        text-transform: unset;
+        padding-left: 0;
+        color: $white;
+        letter-spacing: 0.1em;
+    }
+}

@@ -1,0 +1,57 @@
+
+.events{
+    background-color:$second-color;
+    color: $white;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    margin-top: 35rem;
+    &::before{
+        background-image: url(../images/mask-top-final.png);
+        background-size: cover;
+        content: "";
+        height: 17.5rem;
+        left: 0px;
+        position: absolute;
+        top: -17.5rem;
+        width: 100%;
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+    &::after{
+        background-image: url(../images/mask-bottom-final.png);
+        background-size: cover;
+        bottom: -17.5rem;
+        content: "";
+        height: 17.5rem;
+        left: 0px;
+        position: absolute;
+        width: 100%;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+    }
+
+    &__title{
+        margin-bottom: 7rem;
+        font-size: 3.8rem;
+        font-weight: 900;
+        line-height: 1;
+        text-align: center;
+        color:$white;
+    }
+    &__text{
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        margin-bottom: 0px;
+    }
+    &__heading{
+        font-size: 7rem;
+        line-height: 1;
+        margin-top: .7rem; 
+        letter-spacing: 0.19em;
+    }
+
+}
+
+

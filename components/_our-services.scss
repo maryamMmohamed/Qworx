@@ -1,0 +1,47 @@
+.service{
+    &__content {
+        margin: 2rem 0;
+        &:hover{
+            .service__text{
+                color: $white;
+            }
+            .service__icon {
+                transform: scale(1.5);
+                transition: transform .5s;
+                color: $white;
+            }
+        }
+    }
+    &__LgText{
+        color: #a3a3a3;
+        font-size: 1.6rem;
+        margin: 0;
+        text-align: left;
+    }
+    &__title {
+        display: flex;
+        font-size: 1.5rem;
+    }
+    &--blue{
+        color: $main-color;
+    }
+    &--pink{
+        color: $pink-color;
+    }
+    &--green{
+        color: $green-color;
+    }
+    &__text{
+        padding-top: 1rem;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+        &__icon
+        {
+            font-weight: bold;
+            font-size: 4rem;
+            padding-right: 1.1rem;
+            transition: transform .5s;
+            margin-bottom: 1.5rem;
+        }
+}

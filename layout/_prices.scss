@@ -1,0 +1,30 @@
+.price{
+    background: linear-gradient(54deg, $second-color 82%, #ffffff 20%);
+    padding: 10rem 0;
+    text-align: center;
+    &__title{
+        font-size: 4.5rem;
+        text-transform: capitalize;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: 1.6rem;
+        line-height: 1.2;
+        letter-spacing: 0.19em;
+        color: $white;
+        padding-top: 8rem;
+    }
+    
+&__card{
+    padding-bottom: 9rem;
+    width: 120rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+}

@@ -1,0 +1,33 @@
+
+.btn{
+    padding: 2.7rem 6.5rem;
+    font-size: 1.3rem;
+    // padding: 2.6rem 4.2rem;
+    // font-size: 1.8rem;
+    text-transform: uppercase;
+    // box-shadow: 2px 2px 15px #dddddd;
+    border: 2px solid transparent;
+    transition:all .3s ease-in-out;
+    border-radius: 4rem;
+    min-width: 20rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    line-height: 1.6rem;
+    text-decoration: none;
+
+    &--main-bgcolor{
+        background-color: $main-bgcolor; 
+    }
+    &--rounded{
+        color: $white;   
+    }
+    &:hover{
+        border: 2px solid $main-bgcolor;
+        // border: 4px solid $main-bgcolor;
+        color: $main-color;
+        background-color: transparent;
+    }
+
+}
+
+

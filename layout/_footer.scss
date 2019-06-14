@@ -1,0 +1,112 @@
+
+.page-footer{
+    background-image: url(../images/bg-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $second-color;
+    color: $white;
+    background-attachment: fixed;
+    position: relative;
+    &::before{
+        opacity: 0.8;
+    }
+    &__container{
+        padding-bottom: 16.3rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-right: auto;
+        margin-left: auto;
+        width: 120rem;
+        position: relative;
+        padding-top: 21rem;
+        .social-icons {
+            text-align: center;
+            max-width: 35rem;
+            margin: 0 auto;
+            padding-left: 7rem;
+        }        
+    }
+    &__logo{
+        left: 42%;
+        position: absolute;
+        top: -4rem;
+        width: 20rem;
+        z-index: 99;
+    }
+    &__content{
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 1.8px;
+        margin-bottom: 5rem;
+        text-transform: uppercase;
+        position: relative;
+    }
+    &__item {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        color: $white;
+        padding-bottom: 2rem;
+    }
+    &__icon{
+        margin-right: 1rem;
+        align-self: flex-start;
+        line-height: inherit;
+        display: inline-block;
+    }
+    &--green {
+        border-color: $green-color;
+        color: $green-color;
+    }
+    &--pink{
+        color: $pink-color;
+    }
+    &--blue {
+        color: $main-color;
+    }
+    &__i{
+        width: 1em;
+    }
+    &__form{
+        margin: auto;
+        max-width: 37rem;
+        position: relative;
+    }
+    &__input{
+        background-color: $white;
+        border-color: #454545;
+        color: $gray-400;
+        border: none;
+        font-style: italic;
+        max-width: 29rem;
+        width: 100%;
+        border-radius: .5rem;
+        font-size: 1.6rem;
+        height: 6rem;
+        padding-bottom: .9rem;
+        padding-left: 2rem;
+        padding-right: 5rem;
+        padding-top: .9rem;
+        margin-left: 1.5rem;
+    }
+
+    &__copyright{
+        color: #252525;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: $white;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    &__text{
+        color: #252525;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding-top: 3rem;
+    }
+}

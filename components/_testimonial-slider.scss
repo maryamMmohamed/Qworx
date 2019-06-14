@@ -1,0 +1,48 @@
+.testimonial-item
+{
+    float: left;
+    position: relative;
+    width: 60rem;
+    display: inline-block;
+    height: 20rem;
+
+    &__container
+        {
+        margin: 0 auto;
+        padding: 0;
+        min-height: 18rem;
+        border-bottom: 1px solid rgba($color: $green-color, $alpha:.6);
+        width: 46.7rem;
+    }
+
+
+    &__img{
+        width: 25rem;
+        padding-top: 2rem;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+
+    &__heading
+    {
+        color: $second-color;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 2.2rem;
+        letter-spacing: 0.19em;
+        font-weight: 500;
+    }
+        &__text
+        {
+            margin: 1rem 0;
+            line-height: 150%;
+            font-size: 1.4rem;
+            padding-top: .7rem;
+        }
+
+        &__icon{
+            color: $star-color;
+            font-size: 1rem;
+        }
+            
+}

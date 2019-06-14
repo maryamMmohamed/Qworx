@@ -1,0 +1,78 @@
+
+.animation-button{
+    margin-top: 4rem;
+    a {
+        text-decoration: none;
+        line-height: 8rem;
+        transition: none;
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+        z-index: 1;
+      }
+      
+      &__btn {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: 1rem auto;
+        text-transform: capitalize;
+        border: 1px solid transparent;
+        border-radius: 4rem;
+        font-weight: 700;
+        color: $white;
+        background-color: $main-bgcolor;
+        &::before , &::after{
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 25.25%;
+          height: 0;
+          background-color: $white;
+          z-index: -1;
+        }
+        &::before{
+          left: 0;
+        }
+        &::after {
+          left: 50%;
+        }
+        &:hover {
+          color: $main-color;
+          border-color: $main-color;
+          &::before , &::after{
+            height: 8rem;
+          }
+          .animation-button__span{
+            &::before , &::after{
+              height: 8rem;
+            }
+          }
+        }
+      }
+
+      &__span{
+        &::before , &::after{
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 25.25%;
+          height: 0;
+          background-color: $white;
+          z-index: -1;
+          top: auto;
+          bottom: 0;
+        }
+        &::before{
+          left: 25%;
+        }
+        &::after{
+          left: 75%;
+        }
+      }
+      & *,
+      & *:before,
+      & *:after {
+          box-sizing: border-box;
+          transition: 0.5s ease-in-out;
+      }
+}

@@ -1,0 +1,51 @@
+.teams-slide {
+    background: #f3f3f308;
+    min-height: 25rem;
+    line-height: 25rem;
+    transition: 0.5s;
+    height: 100%;
+    position: relative;
+    &__inner{
+        position: relative;
+        height: 50rem;
+        &:hover{
+            .teams-slide__overlay {
+                opacity: 1;
+                top: 0;
+                height: 100%;
+                transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+            }
+        }
+    }
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+    &__overlay {
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        background-color: rgba(229, 103, 120, 0.7);
+        opacity: 0;
+        height: 0%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem;
+        text-align: center;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    &__text{
+        padding-bottom: 3rem!important;
+    }
+    &__link{
+        color: $white;
+        font-size: 1.8rem;
+    }
+}

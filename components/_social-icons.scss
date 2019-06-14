@@ -1,0 +1,41 @@
+
+.social-icons {
+    text-align: center;
+    &__link {
+        width: 10rem;
+        display: inline-block;
+        list-style: none;
+       
+    } 
+    &__icon{
+        cursor: pointer;
+        width: 6rem;
+        height: 6rem;
+        background-color: $white;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 6rem;
+        box-shadow: 4px 2px 8px -4px rgba(0,0,0,0.75);
+        transition: all 0.5s ease-in-out;
+        &:hover 
+        {
+            transform: rotate(360deg);
+            border-radius: 10rem;
+        }
+    }  
+    &__facebook 
+    {  
+        color: #3b5998;
+        border: 1px solid #3b5998;
+    }
+    &__twitter 
+    {
+        color: #1da1f2;
+        border: 1px solid #1da1f2;
+    }
+    &__google 
+    {
+        color: #dd4b39;
+        border: 1px solid #dd4b39;
+    }          
+}

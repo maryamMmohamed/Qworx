@@ -1,0 +1,14 @@
+
+.home-header{
+    text-align: center;
+    margin-top: 19rem;
+    &__text{
+        color: #323232;
+        font-size: 3.4rem;
+        line-height: 4.8rem;
+        margin: 7rem auto;
+        max-width: 99.5rem;
+        font-weight: 300;
+        letter-spacing: .25rem;
+    }
+}

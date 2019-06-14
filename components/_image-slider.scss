@@ -1,0 +1,39 @@
+
+.image-slider{
+    height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	animation-name: image-slider;
+	animation-iteration-count: infinite;
+	animation-duration: 2.5s;
+    animation-direction: alternate; 
+    position: relative;
+    width: 100%;
+    color: $white;
+    object-fit: cover;
+
+    &__content{
+        padding: 20rem 0;
+        padding-left: 12rem;
+        margin-top: 5.5rem;
+    }
+    
+    &__member
+    {
+    height: 57rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	animation-name: image-member;
+	animation-iteration-count: infinite;
+	animation-duration: 2.5s;
+    animation-direction: alternate;
+    width: 48rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    }
+}
+
+
+

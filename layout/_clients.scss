@@ -1,0 +1,37 @@
+
+.our-clients{
+    padding: 10rem 0px;
+    color: $white;
+    background: linear-gradient(54deg, $second-color 81%, $pink-color 20%);
+    text-align: center;
+    &__title{
+        font-size: 4.5rem;
+        text-transform: capitalize;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: 2.6rem;
+        margin-bottom: 2.6rem;
+        line-height: 1.2;
+        letter-spacing: 0.19em;
+    }
+    .clients__container
+    {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        .clients__content
+        {
+            transform: translate3d(0px, 0px, 0px);
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5rem;
+            justify-content: center;
+            
+        }
+    }
+}

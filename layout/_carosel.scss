@@ -1,0 +1,16 @@
+
+.carosel-images{
+    margin-left: -1rem;
+    margin-right: -1rem;
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0s ease 0s;
+    display: flex;
+   flex-direction: row;    
+   background-color: $second-color;
+   padding-bottom: 35rem; 
+   overflow-x: hidden;
+}
